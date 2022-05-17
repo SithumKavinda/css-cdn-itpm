@@ -39,6 +39,29 @@ body {
   border-radius: 10px;
 }
 
+/*Remove the arrows of number input*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  font-size: 10pt;
+  padding: 0;
+  margin-top: 5px;
+}
+
 a {
   color: white;
   text-decoration: none;
