@@ -1,0 +1,90 @@
+* {
+  /* border: 1px solid black; */
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 10pt;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 14pt;
+}
+
+h2 {
+  font-size: 12pt;
+}
+
+h3 {
+  font-size: 11pt;
+}
+
+p {
+  font-size: 10pt;
+}
+
+hr {
+  margin: 10px 15px 20px;
+  border: 1px dashed black;
+}
+
+body {
+  width: 80mm;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+.body-headline {
+  padding: 0 0 20px;
+}
+
+.bill-details {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  padding: 0 0 20px;
+  width: fit-content;
+}
+
+.bill-details * {
+  width: fit-content;
+}
+
+table,
+th,
+td {
+  border: 1px dashed black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bill-table {
+  padding: 0 0 20px;
+}
+
+.footer h3 {
+  padding-top: 10px;
+}
